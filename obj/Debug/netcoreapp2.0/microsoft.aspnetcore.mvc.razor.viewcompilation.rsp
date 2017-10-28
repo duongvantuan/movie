@@ -1,0 +1,12 @@
+/home/ngovanhai1221/movie
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=movie
+--content-root=/home/ngovanhai1221/movie
+--file=/home/ngovanhai1221/movie/Views/Home/About.cshtml
+--file=/home/ngovanhai1221/movie/Views/Home/Contact.cshtml
+--file=/home/ngovanhai1221/movie/Views/Home/Index.cshtml
+--file=/home/ngovanhai1221/movie/Views/Shared/Error.cshtml
+--file=/home/ngovanhai1221/movie/Views/Shared/_Layout.cshtml
+--file=/home/ngovanhai1221/movie/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/home/ngovanhai1221/movie/Views/_ViewImports.cshtml
+--file=/home/ngovanhai1221/movie/Views/_ViewStart.cshtml
