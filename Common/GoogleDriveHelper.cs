@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Google.Apis.Drive.v2;
 using Google.Apis.Drive.v2.Data;
 
-namespace Common
+namespace movie.Common
 {
     class GoogleDriveHelper
     {

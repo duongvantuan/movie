@@ -4,7 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Google.Apis.Drive.v2;
+using Google.Apis.Drive.v2.Data;
 using movie.Models;
+using movie.Common;
 
 namespace movie.Controllers
 {
@@ -12,6 +15,14 @@ namespace movie.Controllers
     {
         public IActionResult Index()
         {
+            try
+            {
+                var service = Authentication.AuthenticateServiceAccount("", "");
+            }
+            catch (Exception e)
+            {
+                return "abc";
+            }
             return View();
         }
 
